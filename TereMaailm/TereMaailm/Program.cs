@@ -12,6 +12,7 @@ namespace TereMaailm
         {
             Console.WriteLine("Tere maailm!");
             Console.WriteLine("Meeldiv tutvuda!");
+            Console.WriteLine("Mul ka");
         }
     }
 }
