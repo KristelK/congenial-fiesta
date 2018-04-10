@@ -15,6 +15,7 @@ namespace TereMaailm
             Console.WriteLine("Mul ka");
             Console.WriteLine("Tere siitpoolt");
             Tervitaja.Tervita("Maailm");
+            Tervitaja.Tervita(new string[] {"Kristel", "Martin", "Katrin"} );
         }
     }
 }

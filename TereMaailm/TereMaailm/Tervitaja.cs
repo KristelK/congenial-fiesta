@@ -12,5 +12,13 @@ namespace TereMaailm
         {
             Console.WriteLine("Tere {0}.",keda);
         }
+
+        internal static void Tervita(string[] v)
+        {
+            foreach (string nimi in v)
+            {
+                Tervita(nimi);
+            }
+        }
     }
 }
