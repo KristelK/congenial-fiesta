@@ -14,6 +14,7 @@ namespace TereMaailm
             Console.WriteLine("Meeldiv tutvuda!");
             Console.WriteLine("Mul ka");
             Console.WriteLine("Tere siitpoolt");
+            Tervitaja.Tervita("Maailm");
         }
     }
 }
